@@ -18,6 +18,15 @@
 		1825F1011848972000B53E53 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1825F0E01848971F00B53E53 /* Cocoa.framework */; };
 		1825F1091848972000B53E53 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1825F1071848972000B53E53 /* InfoPlist.strings */; };
 		1825F10B1848972000B53E53 /* Release_ToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825F10A1848972000B53E53 /* Release_ToolTests.m */; };
+		1825F12218489D4100B53E53 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825F11E18489D4100B53E53 /* MainView.m */; };
+		1825F12318489D4100B53E53 /* NSView + Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825F12018489D4100B53E53 /* NSView + Extend.m */; };
+		1825F12618489D7200B53E53 /* DragTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825F12518489D7200B53E53 /* DragTextField.m */; };
+		1825F12B1848A2EA00B53E53 /* ios_pack.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1825F12A1848A2EA00B53E53 /* ios_pack.sh */; };
+		18688F2E184C5D9D006C905B /* android_pack.sh in Resources */ = {isa = PBXBuildFile; fileRef = 18688F2D184C5D9D006C905B /* android_pack.sh */; };
+		18CD463E184C82C600F7E97E /* all_pack.sh in Resources */ = {isa = PBXBuildFile; fileRef = 18CD463D184C82C600F7E97E /* all_pack.sh */; };
+		18CD4645184C85F600F7E97E /* JXFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CD4644184C85F600F7E97E /* JXFileManager.m */; };
+		18CD4647184C867F00F7E97E /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18CD4646184C867F00F7E97E /* config.plist */; };
+		18CD464A184C874000F7E97E /* PathHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CD4649184C874000F7E97E /* PathHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +59,21 @@
 		1825F1061848972000B53E53 /* Release-ToolTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Release-ToolTests-Info.plist"; sourceTree = "<group>"; };
 		1825F1081848972000B53E53 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1825F10A1848972000B53E53 /* Release_ToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Release_ToolTests.m; sourceTree = "<group>"; };
+		1825F11B18489AAE00B53E53 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		1825F11D18489D4100B53E53 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		1825F11E18489D4100B53E53 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		1825F11F18489D4100B53E53 /* NSView + Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView + Extend.h"; sourceTree = "<group>"; };
+		1825F12018489D4100B53E53 /* NSView + Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView + Extend.m"; sourceTree = "<group>"; };
+		1825F12418489D7200B53E53 /* DragTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragTextField.h; sourceTree = "<group>"; };
+		1825F12518489D7200B53E53 /* DragTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragTextField.m; sourceTree = "<group>"; };
+		1825F12A1848A2EA00B53E53 /* ios_pack.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = ios_pack.sh; sourceTree = "<group>"; };
+		18688F2D184C5D9D006C905B /* android_pack.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = android_pack.sh; sourceTree = "<group>"; };
+		18CD463D184C82C600F7E97E /* all_pack.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = all_pack.sh; sourceTree = "<group>"; };
+		18CD4643184C85F600F7E97E /* JXFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXFileManager.h; sourceTree = "<group>"; };
+		18CD4644184C85F600F7E97E /* JXFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXFileManager.m; sourceTree = "<group>"; };
+		18CD4646184C867F00F7E97E /* config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
+		18CD4648184C874000F7E97E /* PathHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathHelper.h; sourceTree = "<group>"; };
+		18CD4649184C874000F7E97E /* PathHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +139,11 @@
 		1825F0E61848971F00B53E53 /* Release-Tool */ = {
 			isa = PBXGroup;
 			children = (
+				18CD463F184C85AA00F7E97E /* Addition */,
+				1825F1291848A2EA00B53E53 /* Shell */,
+				1825F11C18489D4100B53E53 /* Views */,
+				1825F12118489D4100B53E53 /* UIControls */,
+				1825F11A18489A8A00B53E53 /* Global */,
 				1825F0F21848971F00B53E53 /* AppDelegate.h */,
 				1825F0F31848971F00B53E53 /* AppDelegate.m */,
 				1825F0F51848971F00B53E53 /* MainMenu.xib */,
@@ -152,6 +181,56 @@
 				1825F1071848972000B53E53 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1825F11A18489A8A00B53E53 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				18CD4646184C867F00F7E97E /* config.plist */,
+				1825F11B18489AAE00B53E53 /* Config.h */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		1825F11C18489D4100B53E53 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1825F11D18489D4100B53E53 /* MainView.h */,
+				1825F11E18489D4100B53E53 /* MainView.m */,
+				1825F11F18489D4100B53E53 /* NSView + Extend.h */,
+				1825F12018489D4100B53E53 /* NSView + Extend.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1825F12118489D4100B53E53 /* UIControls */ = {
+			isa = PBXGroup;
+			children = (
+				1825F12418489D7200B53E53 /* DragTextField.h */,
+				1825F12518489D7200B53E53 /* DragTextField.m */,
+			);
+			path = UIControls;
+			sourceTree = "<group>";
+		};
+		1825F1291848A2EA00B53E53 /* Shell */ = {
+			isa = PBXGroup;
+			children = (
+				18CD463D184C82C600F7E97E /* all_pack.sh */,
+				18688F2D184C5D9D006C905B /* android_pack.sh */,
+				1825F12A1848A2EA00B53E53 /* ios_pack.sh */,
+			);
+			path = Shell;
+			sourceTree = "<group>";
+		};
+		18CD463F184C85AA00F7E97E /* Addition */ = {
+			isa = PBXGroup;
+			children = (
+				18CD4648184C874000F7E97E /* PathHelper.h */,
+				18CD4649184C874000F7E97E /* PathHelper.m */,
+				18CD4643184C85F600F7E97E /* JXFileManager.h */,
+				18CD4644184C85F600F7E97E /* JXFileManager.m */,
+			);
+			path = Addition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +309,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CD463E184C82C600F7E97E /* all_pack.sh in Resources */,
 				1825F0EB1848971F00B53E53 /* InfoPlist.strings in Resources */,
+				1825F12B1848A2EA00B53E53 /* ios_pack.sh in Resources */,
 				1825F0F91848972000B53E53 /* Images.xcassets in Resources */,
+				18CD4647184C867F00F7E97E /* config.plist in Resources */,
+				18688F2E184C5D9D006C905B /* android_pack.sh in Resources */,
 				1825F0F11848971F00B53E53 /* Credits.rtf in Resources */,
 				1825F0F71848971F00B53E53 /* MainMenu.xib in Resources */,
 			);
@@ -252,8 +335,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1825F12218489D4100B53E53 /* MainView.m in Sources */,
+				1825F12318489D4100B53E53 /* NSView + Extend.m in Sources */,
 				1825F0F41848971F00B53E53 /* AppDelegate.m in Sources */,
+				18CD464A184C874000F7E97E /* PathHelper.m in Sources */,
+				1825F12618489D7200B53E53 /* DragTextField.m in Sources */,
 				1825F0ED1848971F00B53E53 /* main.m in Sources */,
+				18CD4645184C85F600F7E97E /* JXFileManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +552,7 @@
 				1825F1101848972000B53E53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1825F1111848972000B53E53 /* Build configuration list for PBXNativeTarget "Release-ToolTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +561,7 @@
 				1825F1131848972000B53E53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

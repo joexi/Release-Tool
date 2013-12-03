@@ -16,7 +16,7 @@ About Release-Tool
  * [Android Sdk for mac](https://developer.android.com/sdk/index.html)
  
 
-### How to using
+### How To Use
  * unzip the file "Editor.zip" and copy them to your unity project.
  
  * add the scenes those your would using in your applicaion to the build list.

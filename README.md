@@ -1,7 +1,8 @@
 About Release-Tool
 ============
-    OSX系统下的Unity Relase工具,通过本工具可以一键生成iOS,Android等多平台下的程序包.本工具由Objective-C编写。
-
+	 a Unity Release Tool in OXS, with this tool, you can release a unity project on muti-platform at one time.
+	 Release-Tool was writed by Objective-C
+	 
 ### Environment Requirements:
 
  * [xcode 5]()

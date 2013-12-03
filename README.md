@@ -1,6 +1,6 @@
 About Release-Tool
 ============
-	 a Unity Release Tool in OXS, with this tool, you can release a unity project on muti-platform at one time.
+	 A Unity Release Tool in OXS, with this tool, you can release a unity project on muti-platform at one time.
 	 Release-Tool was writed by Objective-C
 	 
 ### Environment Requirements:

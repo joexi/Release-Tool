@@ -24,19 +24,34 @@
         
         _textFieldOutput = [[DragTextField alloc] initWithFrame:NSMakeRect(0, 0, 400, 30)];
         _textFieldOutput.delegate = self;
-        _textFieldOutput.font = [NSFont fontWithName:@"Helvetica" size:17];
+        _textFieldOutput.font = _textFieldIncome.font;
         _textFieldOutput.center = NSMakePoint(_textFieldIncome.center.x, _textFieldIncome.center.y - 40);
         _textFieldOutput.backgroundColor = [NSColor grayColor];
-        
+        NSTextView *label1 = [[NSTextView alloc] initWithFrame:NSMakeRect(_textFieldIncome.frame.origin.x - 100,
+                                                                          _textFieldIncome.frame.origin.y,
+                                                                          100,
+                                                                          30)];
+        label1.string = @"项目路径:";
+        label1.font = [NSFont fontWithName:@"Helvetica" size:20];
+        label1.backgroundColor = [NSColor clearColor];
+        NSTextView *label2 = [[NSTextView alloc] initWithFrame:NSMakeRect(_textFieldOutput.frame.origin.x - 100,
+                                                                          _textFieldOutput.frame.origin.y,
+                                                                          100,
+                                                                          30)];
+        label2.string = @"目标路径:";
+        label2.font = [NSFont fontWithName:@"Helvetica" size:20];
+        label2.backgroundColor = [NSColor clearColor];
     
         NSButton *btn = [[NSButton alloc]initWithFrame:NSMakeRect(0,0,200,30)];
         btn.title = @"start";
         [btn setTarget:self];
         [btn setAction:@selector(btnDidSelect)];
-        btn.center = NSMakePoint(_textFieldIncome.center.x, _textFieldIncome.center.y - 80);
+        btn.center = NSMakePoint(_textFieldIncome.center.x, _textFieldIncome.center.y - 100);
         
         
         [self addSubview:btn];
+        [self addSubview:label1];
+        [self addSubview:label2];
         [self addSubview:_textFieldIncome];
         [self addSubview:_textFieldOutput];
     }
@@ -67,6 +82,7 @@
     [task setArguments: arguments];
     [task launch];
     [task setTerminationHandler:^(NSTask *t) {
+        
         NSAlert *al = [NSAlert alertWithMessageText:@"打包成功!"
                                       defaultButton:@"关闭"
                                     alternateButton:@""

@@ -6,7 +6,7 @@ project_path=$1
 output_path=$2
 
 #android 部分
-/Applications/Unity/Unity.app/Contents/MacOS/Unity -projectPath ${project_path} -executeMethod ReleaseTool.BuildAndroid -quit
+/Applications/Unity/Unity.app/Contents/MacOS/Unity -projectPath ${project_path} -executeMethod ReleaseTool.BuildAndroid -quit -batchmode
 
 cd ${project_path}
 
@@ -14,10 +14,8 @@ cp k2.pkg ${output_path}
 
 # rm -rf k2.pkg
 
-
-
 # ios 部分
-/Applications/Unity/Unity.app/Contents/MacOS/Unity -projectPath ${project_path} -executeMethod ReleaseTool.BuildiOS -quit
+/Applications/Unity/Unity.app/Contents/MacOS/Unity -projectPath ${project_path} -executeMethod ReleaseTool.BuildiOS -quit -batchmode
 
 target_name="Unity-iPhone";
 
